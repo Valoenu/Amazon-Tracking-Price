@@ -3,19 +3,11 @@ import requests
 import smtplib
 import os
 from dotenv import load_dotenv
-import lxml
+#import lxml
 
 load_dotenv()
 
-
-SMTPP_ADDRESS="smtp.gmail.com or others smtp address"
-EMAIL="your_email@email.com"
-PASSWORD="your password"
-
 url = "https://www.amazon.com/dp/B075CYMYK6?psc=1&ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6"
-
-
-
 
 header = {
     "User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/375.1.776343893 Mobile/15E148 Safari/604.1",
